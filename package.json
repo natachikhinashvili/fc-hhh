@@ -1,0 +1,39 @@
+{
+  "name": "fc-hhh",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/natachikhinashvili/fc-hhh.git",
+  "author": "<natanatuka33@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natachikhinashvili/fc-hhh/issues"
+  },
+  "homepage": "https://github.com/natachikhinashvili/fc-hhh#readme",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@typechain/ethers-v5": "^10.2.1",
+    "@typechain/hardhat": "^6.1.6",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.2.1",
+    "@types/sinon-chai": "^3.2.9",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.14.0",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "dotenv": "^16.0.3",
+    "hardhat-contract-sizer": "^2.8.0",
+    "hardhat-deploy": "^0.11.29",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2"
+  }
+}
